@@ -1,0 +1,60 @@
+ .greenbox{
+    height: 70vh;
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    
+    z-index: -1;
+    /* gap:23px; */
+      background-color: rgb(154, 154, 252);
+ }
+ .rightbox{
+      position: relative;
+   height: 6vh;
+   margin-left: 85%;
+   width: 20%;
+/* bott: 23px; */
+border-radius: 5px;
+   background:white;
+   /* border: 1px solid black ; */
+ }
+ .maingreenbox{
+   position: absolute;
+   height: 55%;
+   left: 4%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   top: 118%;
+
+   z-index: 1;
+
+   width: 50%;
+ }
+ .greenboxtext{
+   color: #0f1213e5; 
+   font-weight: 400;
+   height: 70%;
+   width: 70%;
+   /* border: 3px solid; */
+   margin-left: 34px;
+   margin-top: 63px;
+ }
+  .greenboxtext3{
+   color: #0f1213e5; 
+   font-weight: 400;
+   height: 70%;
+   width: 70%;
+   /* border: 3px solid; */
+   margin-left: 78px;
+   margin-top: 63px;
+ }
+
+ button{
+   background-color: #000;
+   color: wheat;
+ }
+ .greendiv{
+   display: flex;
+ }

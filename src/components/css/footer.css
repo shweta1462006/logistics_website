@@ -1,0 +1,34 @@
+  .parent4 {
+      height: 40vh;
+      width: 100%;
+      background-color: rgba(28, 28, 85, 0.349);
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      word-wrap: 34px;
+      word-wrap: break-word;
+  }
+  .parent5 {
+      height: 50px;
+      background-color: rgb(111, 111, 201);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+
+  .child3 li {
+      list-style: none;
+  }
+
+  .child5 li {
+      list-style: none;
+  }
+
+  .child5 {
+      display: flex;
+  }
+
+  #mega {
+      margin-top: 20px;
+  }
