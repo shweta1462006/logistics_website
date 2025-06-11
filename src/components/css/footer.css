@@ -1,34 +1,204 @@
-  .parent4 {
-      height: 40vh;
-      width: 100%;
-      background-color: rgba(28, 28, 85, 0.349);
-      display: flex;
-      justify-content: center;
-      justify-content: space-evenly;
-      word-wrap: 34px;
-      word-wrap: break-word;
-  }
-  .parent5 {
-      height: 50px;
-      background-color: rgb(111, 111, 201);
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-  }
+     .fbox {
+       height: 100vh;
+       width: 100%;
+     }
 
-  .child3 li {
-      list-style: none;
-  }
+     #scimg1 {
+       border-radius: 10px;
+       margin-left: 12%;
+       height: 30%;
+       width: 40%;
+     }
 
-  .child5 li {
-      list-style: none;
-  }
+     #fp {
+       color: #ffffff;
+       margin-top: 4%;
+       font-family: "Acme", sans-serif;
+       font-size: 43px;
+       margin-left: 6%;
+     }
 
-  .child5 {
-      display: flex;
-  }
+     #M11 {
+       color: white;
+       margin-left: 10%;
+       font-size: 56px;
+       font-family: "Macondo", cursive;
+       font-weight: 400;
+     }
 
-  #mega {
-      margin-top: 20px;
-  }
+     .divimg {
+       margin-top: 40px;
+       height: 10vh;
+       width: 80%;
+       display: flex;
+       align-items: center;
+       margin-left: 23px;
+       justify-content: space-evenly;
+     }
+
+     .playstore {
+       font-size: 12PX;
+       border-radius: 10px;
+       height: 9vh;
+       display: flex;
+       width: 40%;
+
+       background: #fdf7f71e;
+     }
+
+     .playstore img {
+       height: 70%;
+       width: 30%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 5px;
+       margin-top: 5px;
+       margin-left: 5px;
+       margin-right: 5px;
+     }
+
+     .Applestore {
+       font-size: 12PX;
+       border-radius: 10px;
+       margin-right: 43px;
+       height: 9vh;
+       display: flex;
+       width: 45%;
+
+       background: #fdf7f71e;
+     }
+
+     .Applestore img {
+       height: 60%;
+       width: 25%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 5px;
+       margin-top: 5px;
+       margin-left: 5px;
+       margin-right: 5px;
+
+     }
+
+     .ftextmain {
+       height: 100vh;
+       width: 50%;
+
+       margin-left: 6%;
+     }
+
+     .ftextfooter {
+       height: 60%;
+       width: 100%;
+       display: flex;
+     }
+
+     .fdiv2 {
+       height: 100%;
+       width: 70%;
+       display: flex;
+       flex-direction: column;
+       align-items: left;
+       justify-content: space-around;
+       color: whitesmoke;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       display: flex;
+       flex-direction: column;
+     }
+
+     .fparagrapg {
+       height: 50%;
+       width: 100%;
+     }
+
+     p {
+       font-size: larger;
+     }
+
+     #fwhatupp9 {
+       height: 28px;
+       width: 25px;
+       color: whitesmoke;
+       margin-left: 29px;
+     }
+
+     #fwhatupp92 {
+       height: 30px;
+       width: 30px;
+       color: whitesmoke;
+       margin-left: 29px;
+
+     }
+
+     #fwhatupp93 {
+       height: 30px;
+       width: 30px;
+       color: whitesmoke;
+       margin-left: 29px;
+
+     }
+
+     .social {
+       height: 10vh;
+       width: 100%;
+       display: flex;
+       border-top: 2px solid rgba(245, 245, 245, 0.752);
+     }
+
+     .instaback {
+       margin-top: 13px;
+       margin-left: 12px;
+       height: 70%;
+       width: 20%;
+       /* border: 3px solid whitesmoke; */
+       border-radius: 50%;
+       background: rgba(133, 126, 126, 0.196);
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+     }
+
+     #finsta {
+       height: 20px;
+       width: 20px;
+       /* display: flex; */
+       color: whitesmoke;
+
+     }
+
+     .icons {
+       height: 100%;
+       width: 40%;
+
+
+     }
+
+     .ff2 {
+       height: 20px;
+       width: 20px;
+       background-color: white;
+     }
+
+     .socialBLACK {
+       height: 10%;
+       width: 100%;
+       display: flex;
+       /* align-items: center; */
+       /* justify-content: space-around; */
+       border-top: 2px solid #b8bdc3eb;
+     }
+
+     #finsta22 {
+       margin-top: 15px;
+       height: 30px;
+       width: 30px;
+       color: white;
+     }
+
+     .socialBLACK2 {
+       color: #d7cdcdb9;
+       display: flex;
+       border-top: 2px solid #b8bdc3eb;
+     }

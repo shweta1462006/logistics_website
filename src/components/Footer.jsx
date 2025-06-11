@@ -2,65 +2,112 @@ import React from 'react'
 import"./css/footer.css"
 
 export default function Footer() {
-    return (
+  return (
     <>
-    
-          <div className="parent4">
+         <footer>
+    <div class="fbox">
+      <div class="fdiv1">
+      <h1 id="M11">Mokash's</h1>
+      <p id="fp">Download the Mokash's App Now</p>
+      <img id="scimg1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEX///8AAABra2sxMTGtra3x8fHm5uaZmZljY2P5+fns7OxUVFS+vr7W1taCgoKioqI+Pj6NjY0XFxcgICDIyMhISEiVlZXGxsakpKRiYmJ6enqrq6u5ubnQ0NBpaWmzs7MoKCiJiYne3t4UFBQ2NjZDQ0N1dXVYWFgcHBxPT08LCwt0YYRKAAAMDklEQVR4nO2d6WKqOhSFT09VinVsK9Z51ur7P+A1e9HLwk0wKLa2J+sXbpKQTyXDzvTnj5eXl5eXl5eXl5eXl5eXl5eXl5eXV66C6V83TYccbWtMg6pct0wSg6ZKuvGURI7IXh1QsqGYhs65CAoTTh9cNedoMNXlei3XfZV0myIPyF7nVPElzZ1zMS1M+Nc57UeO9kKEHbl+yyV8yid8dM7FX0/oCYsRInsu7+GO7NXvINzOKjkKbITb1lHDwIQZ1cQ+GxpLnwh3JukRLDVEkIeNNGGQl4nZ9irCWW6Yuo0QWpK9JZY2EbboblMsK3zQhPXcXMyuIqzkhqnlE3JN6EL4KtehJqzl5qLiCS3yhEYZhARYgHAplgMn8bWEb1FwooqNsG3uvq9yCScmTJuT67YTS2QjrJxmInorjTB6ONXeRgi95hJCDUpuLRZrfQjCvcpFVBphoNJ+LpewIxZrmwaEzyoXgSf0hJcTHiyE7z+ZMDy2EGezESJH3SiKFlzIg3A7S9Q2YaItEVYX0ae63fDuCOOCMLQk11JJoD6cEGGGfgHhmyf0hD+EcP0TCEO4LZmwPzaqK8KOOFW7jePNRluibc31uHHfhBlC9vqKEM1J1Ifwl6Jv8fDjCNnXxoRdIoSvjfuHntATlkR4pn8Ircsl1P3D8ggr++e09i1NOEn0hhJ1a6LtR2JqmevdoyLcN83digthS+WiUhqhTRn1IcQOzoFYUKJGipB1htCmbyd8Egvquq4nPJUnNPKENoEwqNdyNNGEPaNOU26HDoQfe4nAhEibCSd5magHVxG6KEWIyLhuOhBi+H1JhBlefRd9GSF+N/a15RPqGt8TekJnuc+nySD8cCYcEOHHNYTF59MM54+O6jFhrX5UtWPsL0sirIgd7e9W1XyYvR7DzP/Kdd9cP3bkusaEPddMzIdWkrJ0pj7UQpb6cg0/TYbP+55UmFD72jzhN+sfJhzcN2FYTZTh7MUNXEq+MKz2sEzs+A0PKTj5NDRphw1FeGBCenyVc2RzPBeXdq+wUl6MUKRnm4g5ldDC2P6MydKhJKpMyPXhRCwufZ4iGroTQvnzaTghPUIaY34toXZV3wdh/nw7T+gJTwlfXAj1C51R0twHYePh5VOHfVxQGlVXK2Oj8DHh9GDMYyk/F0QoceN26YWE7SQvD9vSCPmr71HIVI3PhKjxde8J0mPABQh5tKF4/7A0Qlv/0BN6wpIIt5RGfiFvJcSw35i+MJ47C5fr3Ea4UoRPRMjLGi4lFL8CVH0/vL6+vmzJ1Hw4Wj42+YQIH9J1Nf6qTHLTamLJIETcDREifHd1jLyKzIdq+ypClp71b/XqM6FN7IlipQihHhFCGKa7boRU6yaET8ruCUW/n7B7E8KRyhIIU65qd0K013b6BiJzL36vkgNhRPnSL/Q5tdadTudxTJZ604jH8kKx9E3IDgbIHibGsvzIJZw9HoOvW0sJSvbqnBLqJNqgznhMLOu2RIY7qKry5SZ49V360ikHEkx6njdLryjJSChfZfQt3L0FqYzpkRktT+gJSyV0SSlVT8CUTxjcE+Hm6awGf/tvR8Ut8oExTfV6C1ZNIryboAPuZ4Ri79uo2ubuZEeE451Jop39FEdCF82RPX3jsnbpH50QhBp/S4T4M1w6cnjhKHdRQmubxkao+4f67+4JPeGpLmyX2git7+GbhbCM93DbbzQafb1kYm3sDdlMoDUcm+sGux004diEbI0VYU2SiNUgYW+TirmMlzUw4VLCBBLrXT2sCCHK45kihCcqrsYQzebzhhZiXyjCJqfKEfSOA7qerlBClxIGLoShA2H+jCEoNUig5ybaCK+bE+UJfyYhT6FgbwEr5UcEId+2EfJ7mFoVpAnRwHV5D4sTNtqJUBM12yd6b3dFx4vjB0R7T24HnLHxQoLKbRT7y8DEisTMjucDEsUXNpLniCFedAvCgVj6VxG6CP/PuUtQvdIZelN/jFjsiYJHmOtD6LodB1x0Zs0MS69Wh5wI2demywdPeI1+P2EJ76G1v8v+Uh6Z4UKJ/aXF2zRatrIU32RINwJkbybXNSKcUlkKLRenZenn75OUyihLu5GxjPB7clk6MUksyphDZKsPoYyZe7ZVsguVNNeHGUJyvDqvvLkYLFubxkqYv8KSlWp5a+kVlp7QE2ar8HvoTlj4PSyjXJlQTxsDRBPuiIu6chdFSQjTwYFw2m+cCF7ww0KSQCA8DF0V6eP36cFD1BxLSmKSwZAvnrxs298V9eEHm2x7X2oXiFa8dg0feH8aSDPwbJPi44e67aBlnZt4DeGZ+TQ2wjJ6wJ7wJxPaxj5AOGfTgbJ3FWHR9/BSQhl7GkQyJoQStW4GiPpwUNR3ydhT3NicmhGl3ViGieLtVeUag+adaTJmhQbmXCzPTLiTZzYkUfhLxbLD85vyfNSQMvb0tLmKkH3LaE5i5l5GXc+dAduvNKIw6FXoVbIZSbA7ZKoSKmOHVhDy3MRnCpnytUGvFkK9I51tX4zUIMEtvYme8CcT8nwaJkTGeCpTatwC+rAQ6l0FmZAbR1ZCHgO+jpDnRMWjWGYe0hLXPZmT1KQ5UZtJYln2xJJezmW0oKlMTLiU2VBxoiDcJDOg5oiAOVRoTUaUUBl+Gr0DDytj/BD14cYSoaUIodSmBVo9lVB5/tJ8Quu+GB1LBD1uAeHv/nL69E+VvYuSJ/SEX01YfMcBnqWPQTEzPf5TcXUglx0JtMQN2JcyxZ4JX+QuRvllx4HqjAmRBELWlRBmIGkckuTiufqyhmBVfN2TXqDMfShUYNjTLFUE2mpC3gmLlTGOr6XrQ9RicH6UNyeKV+dhIciZMWAWr5m5ivCW82k84T9CuFLRSibUcxMvJdwm6zNfDkwoSz/fYkLzAb6MQ1XWk87NStK4uJFFpR+IjDWkXUp0lSJ8OV2AylqG/6vE35Cle09W2fYYgmy9J6jwHOE7JLT1nn4P4e//De+cUC+jdyLkxtGd/0udCKVEzfkNk0IRCQ1oSf+FhENK4lLxnjC8Yw0r3qILdcNSbSiDFBY6rxIhHoiUQDFn7fQBoR7HDyiJ28w2YVn3GGLpGh+yruVm6THgMtZyu8sTijyhUQHCMtbju+sqQh6C/LLfsOi+iX/I64B9EzPEHoBhVfkpNKHsm7jSs01kn8V5JHEv3XGg6N6XKdl8GSxbRW09We42u85fSGgbmfGEnvB3EKbOP1w5EMLxeumMIff9vGPJ9txxC7KfRK7DvRIZSz0iwknnGH6DHkZ1LbuBMyHv7c2EbUko2JjILXlM/mmsdsLCZ1jymKHt3LV3Iiyw96WtPrzOI3zzc0hLILzOm+gJ/3FCfaYzJvrgPRzmE+o++47ujkomdDpnRhP2dsegvSYRro1lv5CTZ5b5hKePfN6hKRjJQTb1kgkLnBWk/dZ6NYJtvzYnPw0fXXZLQut5T5owf553YULeE8gTesKSCEt+D5mQG0dfTFgZJ9LnH+YTriRWvHxlJOcirhXhbGpOTdx8H6Gurt0J49kmCIqvh+d7gZAdPt9CqBv6RQnDfEKe1PE7Cf1veENCzhhrQZF5ygMIU1sX4AYvoLoPwrBrztnumsO5ZyNuNlfk/G3O5F5O3h4T4SsO45bzuhG+6/4b9hD35oTW6a87FZm/el7LvUIEDuRCCF26e0sJJx67nFECZUw2dif8xjOdPeFFhHqI5zpC/Y3p/qH1PXQ578lKCEciT1TNnz52KeFbFJyoYiMM2se7Ef+SINxKNLhans1lhKzWJOmWJhR7hObfiJ4cmQe0T/MTRNwiL05oU4EzLNHD0HuyQxnnH9rmVpR3+sPNT+lkWc/Os+XLE7roXyHMT6luI+TsMeEilxBtmjPvoV7ZdalAuJ1VchQQYdgaJjsOtJMwsw0Rjk2YYTe5O0IJVNsa+4IJ3+U2OMeU3F4RLkdJQsUJXXTGT/NAhNA72fWO5WfqwwdFeOkOPDck5GkwZ3b31G0aTfjFY8Ce8I4I3efTzDmaLZCN0HqCBxPqpZpci+E9LL6yKzAeSRdNU6PM2+xAA94QofGURNYHgYWDJNoTqp3WaV6euOTsm+Smtp0tvLy8vLy8vLy8vLy8vLy8vLy8vLy8Yv0Hktw0GOoPHaEAAAAASUVORK5CYII=" height="35%" width="45%"/>
+      <div class="divimg">
+        <div class="playstore">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABWVBMVEX///9DhfbqQjU0qFX5uwT2+P5Rj/Y0qFP5uQD/vAA0qFb8//9DhPhEhfXpQzX//v80qU4zqklDg/zwPyrpPC3rQjI0qknuQC8kpEsep1ausyv5zFX5vgDqOjj7tgDpPTbrNCPc7t+o1rOAw45hunVNtGpwvoKRzKDC5srt+PDC4ckipEec0qlEr1/V7957xo5iuHifwesroWd3pPo2pmRglfg2o3A2o3Q2onyz3Lvm8+qYzqE4n4A4n4c4nZCFrTT+1HD//O754Zk6m5r868H98taWsTn6wjI6m6H81n+bsTD84ag6maozq0D6zmf9+uc8l7L3yk362oc8lbv87tC2sis/kr66VYP3bxe2XH/ucCfAVnjEVW/tZCvIUWjOUF7UTVjsVC3cSErfSEXoLRXvj4nvbGL65ef2xsX0rqtZfeHjRUJpetLRwdnpalzxnJbwgXz2urf63NpkY8K+AAAHzUlEQVR4nO2baXvTRhRGPZaKVFtSHC+JU4IRAbOZkLaUshTCXqBtaIA2LW0pm0MSkxLI///QO7KteNEyM4o1Iz/3/AKf573vzGgk53IIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIghw+Rdk/YHIUTyydPNVsNk+fOXtO9m+ZBMVrzXqrblDqdW3lhOzfc+icX24Zmo9htE5OV47FlUE/j3rrwhQ18lyzro0CMS6fl/3DDoli8dS4oCfZOnVR9o87HE63CoGGNMeVaajjtVawX7eO9ezXsRg8on6OdVrHTFsuRRvSUf0607tjcXl0nwiQbJ3JcB0vRrXwYFSNJdk/VJhvvi0xKGpaq5nV3fGS/R2bIuyOmaxj8bJ15Hs2RS2bh9UvjhAOxbq2lLl9AwyJZTN2UdNK2TusUkNQZE2RjmrGdkfPEBSvMCvCc9WZLI1q1xC6yKEIdbwm+3ez0zMkhGNQqWMzM89VviHXoNI6ns5IHX1DULxa0kIeFAMo1OvZOKweGNIU5+JP4YOjWshCHQcMiWVdmeVRhFHNQB0HDSHFG7MGV4yl1sr1XG5GtkUUQ4a0i3wp0ln9Qe3dcdiQWOTqbIHP0agvK13HEUNCyjdm+ULU6LOjwnUcMyTkJl8XgQI8V12XbRLGuCFdbti3RT9GQ9Vbx4AMLesG73KjeYfVs7JlAgkwhC7eFEhR1ZcAgYZeF/kVNSXrGGJo3VwrCMSo1Y0Lqh0AQgxBUWRQqWNJsTqGGRKyKjSodOdQ65oj3JCscj1pDMZYV+nWMcLQEltutO6to2wxnwhDUl6d00QdWwVVbh2jDIm1yn9GPXBU5Joj0pBY97jPqL6hsXDr9h3Zerk4QxhU0S6WFm7pDf2u/LfHMYZW+Z6YIiT4panrjcX7OcnvyGMMASFFKqh7NI4+kOnHYggp8p9ufEFdN83bUkOMNxQY1MLCj74gddR/VtoQUnzEd7oxhgWp48P7Shva1iOeFMcFqaO0OrIY0i6uMSuWggRhxTEf35FSRzZDuwwpsq03xsJPQYLekiOljmyGsN78wjao4YKy6shqSMosikakIHV88mvao8ps6A1qogR7o/o45cMqsyFNcS7uHWqsoJ7+7shhaINi5JNGfIIy6shhSFOM2jRYBemoQh3TupHjMiTl9dAUYZH5ilHQc3yWVh35DAlZD1tuuASp42JKo8prWF5fC9r5jQKnIHV8nMrGwWtIrPXAYzi/ICg+TUOR29Dr4qEI0uN4Cor8hrb1fFSRt4M+jWcqGkKKz0c2DVFBSPE3JQ1Bce7gSaNgLPwuKghVVNOQDA5qEkGY04nvGWKGpLwx2/0GrlBKJAiLjaKGkGK3i8kSpIqqGkKK9EkjYYJ6CmMqbGhbG3OwiiYV1Cd+tSFsCIO6sZZcEM5uChuWN5IL6uYTdQ1t+48/EwsqbGjZ5IV77K/FxIYKT+mLSj6fXFHZlcYmf4PgISiaau4Wtm13BfP54y+TKZqTvq8RNCR9QVBMluKTST8iihjaBASdvmH+2MtFU1iyMfHHJ6EM7X/8BLuKwglO/uAtluGwYDdFMUFz8m8VBW4xxgQ9RSHDxt3JX9TwGtrE/ndM0BtUAceJn2dEDK1Awbxz/CX/nJoTX0dFDANGVHC5Mc0ULtp4Da2gDh6kyLPcmObi5K/Z+A1t+1WYIOdyY+p3iym9DOZ5f0giBekBjnHnN3X6Ijil12schiGLDHcXTf3ogxS/A2N/jx89or0U38RvGo20XqvxGhL7daxgvnbsTcygmql/cspqyJJgN8UoxfS/xOAwfFWpsRjSQdVDdg3TfCrh4zbGr75YRrQHDGpIAR/el/FhG6Ph64HnwfgUGwGDai6mcMoWNuRIMCTF7g6oqiGM6DyPYECKDRkF5DB8y5UgUBtWpN9AyfvSO96w85YzwZEUoYDS7BgMbavD18EeDihK2wG5DAVGdCjFxtPUvyflMoSniXcCI+qn6H2EKPs/s9EZCnWwj/tGgX89RRradhLBantzS7acR1SGHeERzdfc92r4RRomEHTfbcsW8wkztGkH2c+iQ1RrO7K1Bgg1FE5w3t2cUWGF6RNsCAk6Qgk6ChWwR0iGognSAiqUHyXI0BYVrLo7svf3cYIMrc4HkaNalRZQPYIMoYP8fuoVsMeYIYzoB4FFRqUdcJhxQxDk9qtAARVbYHzGDDsV3gSdanVTtkYEo4a7Dtu16AG19vt92RZRDBnaFr+gugXsMZxhh1cQdkDZBnEMGXYYb+59v3kld8BhBg25RtSBHfCT0gXsMWDI2UH3w3ZaL6oT0TeERWa+xm7oVJR6BozCz3CX5yharWwqu8OP0jfc5Qiw1s5EAXv0DGFEmQVdZzsr+VG6hrttZsFKPisF7AGGNnOCTh6OoJkpYI/iZYu9g/QImokdYojLdJtgeZpw6A4o+9eKcIm1g66zo9olExv/VZkEFb2EYWGfZadX/Rkwmo/V+AHNZgH7bLdj/CpZLWCf4vvIEKGAW5n2y83k9t182G6h4GsIIT6HzmnGC3jAnhsYoptX8DWEGMW9gBSr7czugEFs50eWmykp4AAzm1W35q04jreAqn4LKsLW3kfXrVaqrtt2Pk2hn8fW9s7O3s7n/WnqH4IgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIJMJf8DEjsqh4Mss/MAAAAASUVORK5CYII="  height="35%" width="25%"/>
+        <p style={{color:'whitesmoke'}}>Download on the playstore</p>
+        </div>
+          <div class="Applestore">
+        <img src="data:image/png;base64,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" height="35%" width="25%"/>
+        <p style={{color:'whitesmoke'}}>Download on the Appstore</p>
+        </div>
+      </div>
+        </div>
+        <div class="ftextmain">
+        <div class="ftextfooter">
+           <div class="fdiv2">
+            <h3>Useful Links</h3>
+            <div class="fparagrapgh">
+            <p>Delivery Information</p><p>Internation shiping</p><p>Payment Option</p><p>Track your order</p><p>Return</p><p>Find a Store</p>
+           </div></div>
+        <div class="fdiv2">   <h3>Information</h3>
+            <div class="fparagrapgh">
+            <p>Blog</p><p>offers & Contest Detail</p><p>Help & FAQs</p><p>About Mokash's</p><p>With hight Quality</p><p>Trusted Insitued</p>
+           </div></div>
+        <div class="fdiv2">   <h3>Contact Us</h3>
+            <div class="fparagrapgh">
+            <p>8634-452-3489</p><h4>Chat With US</h4><p>91+7845620938</p><hr></hr><p>
+<svg id="fwhatupp9" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+</svg>
+<svg id="fwhatupp92"  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-check" viewBox="0 0 16 16">
+  <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+  <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686"/>
+</svg>  
+<svg id="fwhatupp93" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
+  <path d="M16 8c0 3.866-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+</svg>  </p><p></p><p>Customer Review</p>
 
-            <div className="child3">
-              <h1>Events</h1>
-              <li>Nascteur ridicus mus</li>
-              <li>dus vite sed lesuada</li>
-              <li>onvalis id,ultnces sut amet temp</li>
-              <li>donec mollisa ligula</li>
-              <li>mwscans adpiscing elements</li>
-            </div>
+           </div>
+           </div></div>
+                     <div class="social">
+          <h3 style={{color:"whitesmoke",fontFamily:"-moz-initial",margin:"23px "}}>Social</h3>
+          <div className="icons">
+            <div className="instaback">
+            <svg id="finsta" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+</svg></div>
+   
+          
+            <div className="instaback">
+<svg id="finsta" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg></div>
+   
 
-            <div className="child3">
-              <h1>Partners</h1>
-              <li>Duis viate sed lesuda</li>
-              <li>donec mollis alliquet ligula</li>
-              <li>maecanes adioiscing elements</li>
-              <li>Nasceture ridicius mus</li>
-              <li>Onvallis id,ultrices at amet</li>
-            </div>
+                 
+            <div className="instaback">
+<svg id="finsta" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+</svg></div>  
+<div className="instaback">
+<svg id='finsta'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+</svg></div>
 
-
-            <div className="child3">
-              <h1>Profit</h1>
-              <li>Duis viate sed lesuda</li>
-              <li>donec mollis alliquet ligula</li>
-              <li>maecanes adioiscing elements</li>
-              <h1>Join Us</h1>
-              <li>Nasceture ridicius mus</li>
-              <li>Onvallis id,ultrices at amet</li>
-            </div>
-
-            <div className="child3">
-              <h1>Free Shiping</h1>
-              <li>Duis viate sed lesuda</li>
-              <li>donec mollis alliquet ligula</li>
-              <li>maecanes adioiscing elements</li>
-              <li>Nasceture ridicius mus</li>
-              <li>Onvallis id,ultrices at amet</li>
-            </div>
+    </div>
+              
 
 
+     </div>
+                     <div class="socialBLACK">
+          <div className="icons">
+       
+<svg id="finsta22" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+</svg>
+<svg id="finsta22" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg>
+<svg id="finsta22" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+</svg>
+<svg id='finsta22'  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+</svg>
 
+    </div>
+     </div>
+    <div class="socialBLACK2">
+      <p>@2025 Titan Company Limited.All Right Reaserved</p>
+      <p>Term & Condition</p>
+      <p>Private Policy</p>
+      <p>Disclaimer</p>
+    </div>
 
-          </div>
-          <footer  className="parent5">
-            <div className="child4">
-            <p>Copyright@2024your company name
-            Website Templates by fress Templates</p></div>
-            <div className="child5">
-              <li>home</li>
-              <li>portfilo</li>
-              <li>Privacy policy</li>
-              <li>about us</li>
-              <li>Contact</li>
-              </div>
-          </footer>
+        </div>  
+     </div>
+
+   </footer>
+
     </>
   )
 }

@@ -1,0 +1,20 @@
+   .card_tittl2content1 {
+     height: 15vh;
+     width: 50%;
+     margin-left: 34%;
+   }
+
+   #card_tittlep1 {
+     font-family: "Merienda", cursive;
+     font-size: 34px;
+     position: relative;
+     margin-top: 12px;
+   }
+
+   #card_tittlep2 {
+     font-family: "Merienda", cursive;
+     position: relative;
+     margin-bottom: 12px;
+     font: size 25px;
+   }
+   

@@ -1,0 +1,67 @@
+    .Sales_hcard1{
+      height: 50vh;
+      width: 23%;
+      border: 2px solid black;
+    }
+    .Sales_top{
+      height:3.5vh;
+      width: 100%;
+      display: flex;
+    }
+        .Sales_hero1{
+            width: 90%;
+            margin-left:5%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .Sales_shipping{
+      height: 3vh;
+      width: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: center ;
+      gap: 3px;
+      background: rgb(243, 7, 7);
+        }
+ .Sales_divheart{
+  margin-left: 15%;
+  margin-top:00px;
+ }
+ #Sales_heart:hover{
+  cursor: pointer;
+  background: rgb(226, 29, 29);
+ }
+.Sales_content1{
+  height: 90%;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+  background: rgb(192, 68, 89);
+}
+.Sales_content1 img{
+  height: 80%;
+  width: 100%;
+}
+/* =====Animation================= */
+    @keyframes moveUpBounce {
+  0% {
+    transform: translateY(20px);
+  }
+  60% {
+    transform: translateY(-5px); /* Thoda aur upar jaaye */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.Sales_hcard1:hover {
+  animation: moveUpBounce 2s ease-out;
+}
+
+
+
+/* =====Animation================= */

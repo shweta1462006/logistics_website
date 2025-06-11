@@ -1,0 +1,91 @@
+    .jewellery_content1{
+        height: 55vh;
+        width: 100%;
+        /* border: 1px solid; */
+        display: flex;
+    }
+    .jewellery_imgbox{
+      margin-left: 5%;
+        height: 90%;
+        overflow: hidden;
+        margin-top:2%;
+        margin-right: 2%  ;
+        /* background: #ece1e1c9; */
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: url("/pic/image.png")no-repeat center/cover; */
+    }
+    .jewellery_imgbox img{
+      width: 70%;
+      border-radius: none;
+      height: auto;
+      object-fit: cover;
+    }
+   .jewellery_description_box{
+    
+    height: 80%;
+    width: 70%;
+    margin-top: 30px;
+   }
+   .jewellery_undertext{
+    height: 100%;
+    margin-left: 19px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    justify-content: space-around
+   }
+   .jewellery_button09{
+    height: 10vh;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+   }
+   #jewellery_text1{
+    font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(15, 14, 16, 0.903);
+   }
+   #jewellery_num{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+   #jewellery_Description{
+ font-family: "Libre Baskerville", serif;
+  font-weight:600;
+    color: rgb(0, 0, 0);
+  font-size: 18px;
+   }
+   #jewellery_para{
+  font-family: "Roboto", sans-serif;     
+   }
+#jewellery_buttonoption{
+  height: 8vh;
+  padding: 10px;
+  width: 45%;
+  border: none;
+  border-radius: 10px;
+  background: rgba(165, 161, 161, 0.479);
+}
+#jewellery_buttonview{
+  height: 8vh;
+  padding: 10px;
+  width: 45%;
+  border: none;
+  border-radius: 10px;
+  background: rgba(165, 161, 161, 0.479);
+}
+#jewellery_buttonoption:hover{
+  background:rgba(0, 0, 0, 0.797);
+  color: wheat;
+}
+#jewellery_buttonview:hover{
+  background:rgba(0, 0, 0, 0.797);
+  color: wheat;
+}
+

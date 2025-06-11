@@ -1,22 +1,32 @@
 import React from "react";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
 import About from "./components/About";
-import Features from "./components/Features";
-import Services from "./components/Services";
 import Footer from "./components/Footer";
+import Jewellery from "./components/jewellery";
+import Earring from "./components/Earring";
+import Ring_page from "./components/Ring_Page";
+import Sales from "./components/Sales";
+// import Bangles from "./components/Bangles";
+
+// import Sell_Page from "./components/Sell_page";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Carasoule from "./components/Carasoule";
+import Home from "./components/Home";
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Header first="hero" second="Digital Solution" third="Industries" fourth="About" />
+      <Header first="Jewellery" second="Earring" third="Rings" fourth="Bangles" fifth="Sales" />
       <Routes>
-        <Route path="/" element={<Hero />} />
+
+        <Route path="/Home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/features" element={<Features />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/jewellery" element={<Jewellery />} />
+        <Route path="/Earring" element={<Earring />} />
+        <Route path="/Ring" element={<Ring_page />} />
+        {/* <Route path="/Bangles" element={<Bangles />} /> */}
+        <Route path="/Sales" element={<Sales />} />
       </Routes>
       <Footer />
     </BrowserRouter>

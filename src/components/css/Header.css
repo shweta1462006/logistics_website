@@ -3,3 +3,576 @@
     width: 100%;
     background: red;
 }
+   * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+
+   .black {
+
+     height: 5vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 12PX;
+     background: #000;
+     color: #E4D8D6;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+   .icon {
+     width: 14%;
+     display: flex;
+     justify-content: space-between;
+   }
+
+   .icons {
+     width: 15%;
+     display: flex;
+     justify-content: space-between;
+   }
+
+   /*  Header end */
+
+   .logo {
+     display: flex;
+     align-items: center;
+
+   }
+
+   nav {
+     height: 13vh;
+     width: 100%;
+     background: 74350;
+     border-bottom: 3px groove #000;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+   }
+
+   logo {
+     height: 100%;
+     width: 10%;
+     display: flex;
+     border: 1px solid;
+
+   }
+
+   .menu {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     /* border: 1px solid; */
+     height: 100%;
+     width: 60%;
+   }
+
+   .menu li {
+     list-style: none;
+     width: 30%;
+     /* border: 1px solid; */
+   }
+
+
+   svg {
+     font-weight: 1000;
+   }
+
+   .menu li a {
+     text-decoration: none;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 15px;
+     font-weight: 500;
+     padding: 12px;
+     color: #000;
+   }
+
+   .menu li a:hover {
+     border-bottom: 3px double black;
+   }
+
+   */
+   /* nav a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #333;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #007bff;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.6); /* Soft shadow */
+   /* border-radius: 10px 1px ;
+} */
+   .b789 {
+  gap: 2px;
+}
+
+
+
+   .s2 {
+     height: 100%;
+     width: 10%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+
+   /* navbar end */
+   .all {
+     height: 20vh;
+     width: 100%;
+     background: #1294b8;
+
+   }
+
+   #Layer_1 {
+     height: 20px;
+     width: 20%;
+   }
+
+   /* =======grid===== */
+   .content1 {
+     height: 15vh;
+     width: 50%;
+     margin-left: 34%;
+   }
+
+   #p1 {
+     font-family: "Merienda", cursive;
+     font-size: 34px;
+     position: relative;
+     margin-top: 12px;
+   }
+
+   #p2 {
+     font-family: "Merienda", cursive;
+     position: relative;
+     margin-bottom: 12px;
+     font: size 25px;
+   }
+
+   .gridcontent {
+     height: 130vh;
+     width: 85%;
+     /* border: 1px solid; */
+     display: grid;
+     margin-left: 6%;
+     gap: 30px;
+     grid-template-rows: repeat(2, 1fr);
+     grid-template-columns: repeat(4, 1fr);
+
+   }
+
+   .content img {
+     border-radius: 15px;
+     width: 300px;
+     height: 400px;
+
+   }
+
+   #TEXT123 {
+     margin-top: 12PX;
+     font-weight: bolder;
+     font-family: "Playwrite US Modern", cursive;
+   }
+
+   .content {
+     /* border: 1px solid; */
+     border-radius: 15px;
+     transition: transform 0.3s ease;
+     height: 450px;
+     width: 300px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   }
+
+   .content:hover {
+     transform: scale(0.9);
+   }
+
+   /*  grid2 */
+   .h23 {
+     height: 20vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     font-family: "Acme", sans-serif;
+   }
+
+   .main1 {
+     height: 135vh;
+     width: 85%;
+     margin-left: 6%;
+
+   }
+
+   .grid2 {
+     height: 120vh;
+     width: 100%;
+     gap: 10px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+   }
+
+   .div {
+     height: 100%;
+     border-radius: 10px;
+     width: 100%;
+   }
+
+   #g1 {
+     background: url("./ui5.webp") no-repeat center/cover;
+     height: 100%;
+     width: 100%;
+   }
+
+   #g2 {
+     height: 120%;
+     width: 100%;
+   }
+
+   #g2 {
+     background: url("./hhh.png") no-repeat center/cover;
+     height: 120%;
+   }
+
+   #g3 {
+     background: url("0o0o0oo.webp") no-repeat center/cover;
+     height: 120%;
+     width: 100%;
+   }
+
+   #g4 {
+     background: url("./hhh1.jpg")no-repeat center/cover;
+     height: 100%;
+     margin-top: 80px;
+     width: 100%;
+   }
+
+   .imag9099 {
+     height: 84%;
+     width: 100%;
+     position: relative;
+   }
+
+   .imag9099::after {
+     content: "";
+     position: absolute;
+     border-radius: 10px;
+
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 160px;
+     z-index: 0;
+     background: linear-gradient(to bottom, transparent, rgba(255, 0, 0, 0.7));
+   }
+
+ .image2 {
+     height: 87%;
+     width: 100%;
+     position: relative;
+ }
+ .image2::after {
+       content: "";
+     position: absolute;
+     border-radius: 10px;
+
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 170px;
+     z-index: 0;
+     background: linear-gradient(to bottom, transparent, rgba(255, 0, 0, 0.7));
+
+ }
+   #w1 {
+     /* height: 10vh; */
+     position: absolute;
+     position: relative;
+     z-index: 2;
+     top: 80%;
+     /* width: 30%; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 35px;
+     color: whitesmoke;
+     font-family: "Tagesschrift", system-ui;
+   }
+
+   /*  grid2 */
+   /* ring */
+   .ring {
+     height: 70vh;
+     width: 100%;
+     position: absolute;
+     z-index: -1;
+     filter: brightness(90%);
+     border: 1px solid blue;
+     position: sticky;
+     background: url("https://media.istockphoto.com/id/1088290996/photo/diamond-wedding-engagement-ring.jpg?s=2048x2048&w=is&k=20&c=nkTtKYLAvlM4kq8Dt0lnbsP0TRrEqeMOhdJT3LWIeGE=") no-repeat center/cover;
+     border: 1px solid;
+   }
+
+   .ring p {
+     position: absolute;
+     content: "";
+     z-index: 0;
+   }
+
+   .divtxt {
+     height: 30vh;
+     margin-top: 3%;
+     margin-left: 10%;
+   }
+
+   #txt1 {
+     font-size: 40px;
+     margin-left: 6%;
+     margin-bottom: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: #ffffff;
+   }
+
+   #txt2 {
+     font-family: "Reddit Sans Condensed", sans-serif;
+     color: white;
+
+   }
+
+   .ring img {
+     height: 100%;
+     width: 100%;
+   }
+
+   #pi {
+     margin-top: 70px;
+     color: wheat;
+     font-size: 20px;
+     margin-right: 14%;
+     height: 8vh;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     width: 30%;
+   }
+
+   .mid_card {
+     display: flex;
+   }
+
+   .button1 {
+     background: rgba(153, 150, 146, 0.725);
+     height: 6vh;
+     margin-left: 23%;
+     margin-top: 57px;
+     width: 12%;
+     border-radius: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .g9090 {
+     margin-left: 12%;
+     margin-top: 3%;
+     height: 40vh;
+     gap: 20px;
+       width: 70%;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(1, 1fr);
+   }
+
+   #img2 {}
+
+   .gc1 {
+     border: 15px solid #ffffff;
+          border-radius: 10px;
+
+
+
+   }
+
+   .carsoule {
+     height: 100vh;
+     width: 100%;
+   }
+
+   .carsoule video {
+     height: 100%;
+     width: 100%;
+   }
+
+   .gc1 img {
+     height: 40vh;
+     width: 100%;
+     filter: brightnes(200%);
+
+
+
+   }
+
+   .carsoule {
+     height: 50vh;
+     width: 100%;
+   }
+
+   .carsoule img {
+     height: 100%;
+     width: 100%;
+   }
+
+   /* ring */
+   /* carasoul */
+   /* .div7878 {
+        width: 100%;
+        height:80vh;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+      }
+      img{
+        padding: 20px;
+        height: 100%;
+        width: 100%;
+      }
+      
+      @keyframes example {
+        0%   {background:url("https://media.istockphoto.com/id/937104424/photo/brides-jewelery-in-indian-wedding.jpg?s=612x612&w=0&k=20&c=UvdKhtkCemmqgzZp_2b7eq9ADRfQ2B_U0gOs9aOxoRk=") no-repeat center/cover;}
+        25%  {background:url("https://media.istockphoto.com/id/1741418136/photo/young-woman-with-elegant-jewelry-on-beige-background.jpg?s=612x612&w=0&k=20&c=DnwLQfC5j8htqaYOSAaudR_XFb-taW7eVDIvHQWeeSU=") no-repeat center/cover;}
+        50%  {background: url("https://images.pexels.com/photos/12992074/pexels-photo-12992074.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load") no-repeat center/cover;}
+        75% {background:url("./1454.jpg") no-repeat center/cover;}
+        100% {background:url("./1603.jpg") no-repeat center/cover;}
+        
+      }
+ */
+   /* carasoul */
+   /* Div8989start */
+   .div8989{
+    margin-top: 10%;
+    height: 140vh;
+    width: 100%;
+   }
+   .p5656{
+ font-family: "Fondamento", cursive;    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   /* video{
+    height: 50%;
+    width: 100%;
+   }
+   .bicons{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid;
+   }
+   .goldicons{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    border: 1px solid  black;
+   } */
+    /* Div8989start */
+    /* footer */
+        .fbox{
+      height: 80vh;
+      background:rgb(66, 31, 31);
+      width: 100%;
+      margin-top: 13%;
+    }
+    /* .fmain{
+      height: 100%;
+      border: 7px solid wheat;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+    } */
+     footer{
+      display: flex;
+     }
+     .fbox{
+      height: 100vh;
+      width: 100%;
+      border: 8px solid black;
+      display: flex;
+     }
+    #scimg1{
+      border: 4px solid whitesmoke;
+      border-radius: 10px;
+      margin-left: 12%;
+    }
+    #fp{
+      color: #ffffff;
+      margin-top: 4%;
+           font-family: "Acme", sans-serif;
+
+      font-size: 43px;
+      margin-left: 6%;
+    }
+    #M11{
+      color: white;
+      margin-left: 10%;
+      font-size: 56px;
+        font-family: "Macondo", cursive;
+  font-weight: 400;
+    }
+    .divimg{
+      margin-top: 15px;
+      height: 10vh;
+      width: 80%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .playstore{
+      border-radius: 10px;
+      height: 9vh;
+      display: flex;
+      width: 25%;
+      
+      background: #fdf7f74b;
+    }
+  .playstore img{
+    height: 70%;
+    width: 20%;
+  }
+      .Applestore{
+      border-radius: 10px;
+      margin-right:43px ;
+      height: 9vh;
+      display: flex;
+      width: 29%;
+      
+      background: #fdf7f74b;
+    }
+    .Applestore img{
+          height: 70%;
+          width: 40%;
+    }
+    .ftext{
+      height: 100vh;
+      width: 50%;
+      display: flex;
+      border: 2px solid wheat;
+    }
+    .fdiv2{
+    /* border: 1px solid wheat; */
+      }
+      /* footer */
